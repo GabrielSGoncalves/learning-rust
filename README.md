@@ -87,3 +87,14 @@ To generate a release using Cargo you can use the:
 ```bash
 cargo build --release
 ```
+
+## Using Rust with Jupyter
+Jupyter (lab or notebook) is an interactive environment used for development of code related to Data, and can also be used with Rust. To configure it execute the following statements in your terminal:
+```bash
+cargo install evcxr_jupyter
+evcxr_jupyter --install
+```
+Make sure you have Jupyter installed locally, and whenever you open it, you'll have a Rust option for Kernel.
+
+## References
+- [Interactive Rust with jupyter (Ratuls Blog)](https://ratulmaharaj.com/posts/interactive-rust-with-jupyter-notebooks/)
